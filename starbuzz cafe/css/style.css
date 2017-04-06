@@ -1,0 +1,261 @@
+/***************************************
+***************************************
+           general styles start
+***************************************
+***************************************/
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.7;
+    font-family: 'Courgette', cursive;
+    background: url(../images/starbuzz-background.png) no-repeat bottom right #BE9D68;
+    background-size: 196px;
+}
+.header-container{
+    padding-right: 0;
+    padding-left: 0;
+}
+/***************************************
+***************************************
+           general styles end
+***************************************
+***************************************/
+
+
+
+
+
+/***************************************
+***************************************
+           header starts
+***************************************
+***************************************/
+header{
+    background: url(../images/starbuzz-header.jpg) no-repeat top center;
+    background-size: 100% 100%;
+    height: 225px;
+}
+header .overlay{
+    background-color:rgba(126, 94, 22, 0.3);
+    height: 100%;
+    overflow: hidden;
+}
+header .brand{
+    margin-top: 30px;
+    padding: 0 12px;
+    color: #f2e990;
+    text-shadow: 3px 0px 8px lightgrey;
+}
+header .brand h1{
+    margin: 0 0 13px;
+}
+header .brand span{
+    font-size: 1.1em;
+}
+@media(max-width:767px){
+  
+}
+
+
+
+
+/***************************************
+***************************************
+           header ends
+***************************************
+***************************************/
+
+
+
+
+
+/***************************************
+***************************************
+           menu starts
+***************************************
+***************************************/
+.menu{
+    padding: 40px 0;
+}
+.menu .menu-holder{
+    width: 50%;
+}
+
+.menu .menu-holder .menu-item{
+    position: relative;
+    margin:0 7px 5px 0;
+    border: 2px double darkgrey;
+    padding: 10px;
+    background: #74481C;
+    height: 124px;
+    color: #F2E990;
+}
+.menu .menu-holder .menu-item h3{
+    margin: 0 0 12px;
+    color: #fff8dc;
+}
+.menu .menu-holder .menu-item .item-description{
+    position: absolute;
+    top:0;
+    right: 0;
+    border-left: 2px double gold;
+    height: 100%;
+    color: #333;
+}
+.menu .menu-holder .menu-item .item-description span{
+    display: block;
+    background: #fff;
+    padding:14px;
+}
+.menu .menu-holder .menu-item .item-description img{
+    width: 100px;
+    height: 65px;
+    display:block;
+}
+.menu .menu-holder .menu-item .item-components{
+    width: 75%;
+}
+@media (max-width:767px){
+    .menu .menu-holder{
+        width: 100%;
+        float: none;
+    }
+    .menu .menu-holder .menu-item{
+        height: 150px;
+    }
+    .menu .menu-holder .menu-item .item-description{
+        padding-top: 13px;
+        background: #000;
+    }
+
+    .menu .menu-holder .menu-item .item-components{
+        font-size: 0.8em;
+        width: 57%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .menu .menu-holder{
+        width: 100%;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+/***************************************
+***************************************
+           menu ends
+***************************************
+***************************************/
+
+
+
+
+
+/***************************************
+***************************************
+extra small devices general rules start
+***************************************
+***************************************/
+@media (max-width:767px){
+    .visible-xs{
+        display: block!important;
+    }
+    .hidden-xs{
+        display: none!important;
+    }
+}
+/***************************************
+***************************************
+extra small devices general rules end
+***************************************
+***************************************/
+
+
+
+
+
+/***************************************
+***************************************
+ small devices general rules start
+***************************************
+***************************************/
+@media (min-width:768px){
+    .container{
+        width: 740px;
+    }
+     .visible-sm{
+        display: block!important;
+    }
+    .hidden-sm{
+        display: none!important;
+    }
+}
+/***************************************
+***************************************
+ small devices general rules end
+***************************************
+***************************************/
+
+
+
+
+
+/***************************************
+***************************************
+ medium devices general rules start
+***************************************
+***************************************/
+@media (min-width:992px){
+    .container{
+        width: 950px;
+    }
+     .visible-md{
+        display: block!important;
+    }
+    .hidden-md{
+        display: none!important;
+    }
+}
+/***************************************
+***************************************
+ medium devices general rules end
+***************************************
+***************************************/
+
+
+
+
+
+/***************************************
+***************************************
+ large devices general rules start
+***************************************
+***************************************/
+@media (min-width:1200px){
+    .container{
+        width: 1000px;
+    }
+     .visible-lg{
+        display: block!important;
+    }
+    .hidden-lg{
+        display: none!important;
+    }
+}
+/***************************************
+***************************************
+ large devices general rules end
+***************************************
+***************************************/
+
+
+
+
