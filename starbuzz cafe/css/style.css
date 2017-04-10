@@ -14,10 +14,7 @@ html,body{
     background: url(../images/starbuzz-background.png) no-repeat bottom right #BE9D68;
     background-size: 196px;
 }
-.header-container{
-    padding-right: 0;
-    padding-left: 0;
-}
+
 /***************************************
 ***************************************
            general styles end
@@ -142,8 +139,11 @@ header .brand span{
         float: none;
     }
 }
-
-
+/***************************************
+***************************************
+           menu ends
+***************************************
+***************************************/
 
 
 
@@ -151,8 +151,126 @@ header .brand span{
 
 /***************************************
 ***************************************
-           menu ends
+           footer starts
 ***************************************
+***************************************/
+footer{
+    background-color: #3e2709;
+    padding: 7px;
+    color: #f2e990;
+}
+footer a:first-of-type{
+    margin:5px;
+    color: #f2e990;
+    transition: all 0.2s linear;
+    display: block;
+}
+footer p{
+    margin: 5px;
+}
+footer a:hover{
+    transform: translate(25px);
+}
+@media (max-width:767px){
+    footer{
+        text-align: center;
+    }
+    footer p:last-of-type,footer a:first-of-type{
+        float: none;
+    }
+}
+
+/***************************************
+***************************************
+           footer ends
+***************************************
+***************************************/
+
+/*********************************** end index page****************************/
+
+/***************************************
+***************************************
+         mission starts
+ة***************************************
+***************************************/
+.mission{
+    padding: 40px 0;
+}
+.mission .starbuzz-mission{
+    padding: 30px 15px;
+    font-size: 2em;
+    width: 51%;
+    color: #fff;
+    text-shadow: 1px 0px 5px #000;
+    box-shadow: 1px 3px 8px #000;
+    margin: 40px 0;
+    border: 2px double cornsilk;
+    transform: skew(5deg, -8deg);
+    background: #6b4b29;
+    position: relative;
+}
+.mission .starbuzz-mission p{
+    margin: 0 0 14px 5px;
+}
+.mission .starbuzz-mission:before{
+    content: "\201c"; /*to add small quotes before the paragraph to appear as a quote*/
+    display: block;
+    position: absolute;
+    top: -7px;
+    left: 3px;
+    font-size: 200%;
+}
+.mission .starbuzz-mission:after{
+    content: "\201d";
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    font-size: 200%;
+}
+
+.mission .starbuzz-mission span{
+    color: #000;
+    display: inherit;
+}
+.mission .mission-photo{
+    width: 45%;
+}
+@media (max-width:767px){
+    .mission{
+        overflow: hidden;
+    }
+    .mission .starbuzz-mission{
+        float: none;
+        width: 100%;
+        padding: 20px 10px;
+        font-size: 1.5em;
+        margin: 40px 0 50px;
+    }
+    .mission .mission-photo{
+        float: none;
+        width: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .mission .starbuzz-mission{
+        float: none;
+        width: 100%;
+        padding: 20px 10px;
+        margin: 30px 0 60px;
+    }
+    .mission .mission-photo{
+        float: none;
+        width: 100%;
+    }
+
+}
+
+
+/***************************************
+***************************************
+         mission ends
+ة***************************************
 ***************************************/
 
 
