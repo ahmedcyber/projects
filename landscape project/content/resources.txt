@@ -1,0 +1,69 @@
+
+color palette UID: 12B0j0k1uQai6aR2-ng7mkHdNtS
+ #1E824C|#26A65B|#EAEEC8
+ home   gallary   about us   contact 
+*******************************************************************************************
+
+                           website for inspiration
+
+******   http://www.dreamcodesign.com/landscaping-web-design-examples-14-pn1.html **********
+
+**********************************************************************************************
+
+
+
+*********************************** home page******************************************
+
+http://www.greenscapesaustin.com/
+***************************************************************************************
+
+
+
+************************************* nav*************************************
+http://www.3dbrickpaving.com/
+******************************************************************************
+
+
+
+
+
+************************************* header hero image*************************************
+http://www.chicagogardens.com/
+*********************************************************************************
+
+
+
+
+***********************************who we are ***************************************
+http://lotusgardenscapes.com/
+**************************************************************************************
+
+
+
+
+
+***********************************image gallary ***************************************
+http://www.chicagogardens.com/
+http://www.landscapetop.com/
+**************************************************************************************
+
+
+
+
+***********************************comment box***************************************
+http://www.landscapetop.com/
+http://www.quackit.com/html/codes/comment_box_code.cfm            /*source code to make a comment box*/
+http://www.quackit.com/html/codes/add_comments_to_website.cfm    /*ready comment box*/
+http://www.webdeveloper.com/forum/showthread.php?294511-how-to-display-the-user-s-comment-in-the-text-as-a-html-using-javascript   /*ready comment box*/
+https://codepen.io/jamesreegan/pen/YPbdxL  /*ready comment box*/
+https://codepen.io/SycamoreGary2002/pen/XJrYBr    /*recommended one*/
+**************************************************************************************
+
+
+
+*********************************************** footer ***********************************************************
+http://lotusgardenscapes.com/
+https://www.chapelvalley.com/
+************************************************************************************************************************
+
+
