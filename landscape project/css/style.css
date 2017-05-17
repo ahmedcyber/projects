@@ -11,14 +11,333 @@ general rules start
 
 html,body{
     font-family: 'Scheherazade', serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
+} 
+h1{
+    margin: 0;
+    font-size: 1.7em;
 }
-
+figure{
+    margin: 0;
+}
 /*******************
 general rules end
 *******************/
 
 
+/*******************
+   header starts
+*******************/
+header{
+    background:url(../images/home-slider.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    height:550px;
+    color: #fff;
+    position: relative;
+}
+header .main-title{
+    overflow: hidden;
+}
+.main-title .logo{
+}
+.main-nav{
+    text-align: center;
+}
+.main-nav ul>li{
+    display: inline-block;
+    padding:5px 12px;
+}
+.main-nav ul>li>a{
+    color: #fff;
+    display: block;
+    padding: 0 12px;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+   -o-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    font-size: 1.4em;
+}
+.main-nav ul>li>a:hover{
+    background:rgba(210, 234, 155, 0.6);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #000;
+}
+.main-title .phone{
+    position: absolute;
+    bottom: 79px;
+    right: 80px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    font-size: 1.2em;
+}
+.main-title .phone span{
+    display: inline-block;
+}
+.main-title .phone a{
+    color: #fff;
+    display: inline-block;
+}
+@media (max-width:767px){
+    .main-title{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .main-title .logo{
+        text-align: center;
+    }
+    .main-nav ul>li {
+        display: block;
+    }
+    .main-nav ul>li a{
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        background:rgba(131, 178, 113, 0.48);
+        color: #000;
+    }
+    .main-title .phone{
+        right: 50px;
+    }
+}
+/*******************
+   header ends
+*******************/
 
+
+
+
+/*********************
+   our works start
+*********************/
+.our-works{
+    padding: 70px 0;
+    background: #EAEEC8;
+    overflow: hidden;
+}
+.our-works h2{
+    margin-bottom: 40px;
+}
+.our-works h2:after{
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #83B271;
+    margin: 0 auto;
+}
+.our-works figure{
+    background:#384e30;
+    overflow: hidden;
+}
+.our-works figure>img{
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    cursor: pointer;
+    -webkit-transform: scale(1.30);
+    -moz-transform: scale(1.30);
+    -ms-transform: scale(1.30);
+    -o-transform: scale(1.30);
+    transform: scale(1.30);
+}
+.our-works figure:hover img{
+    opacity: 0.6;
+    /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=60);
+
+  /* Netscape */
+  -moz-opacity: 0.6;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.6;
+    
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.our-works .button{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top:30px;
+}
+.our-works .button a{
+    color: #fff;
+    background-color:#83B271;
+    padding: 0 20px;
+    display: inline-block;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.our-works .button a:hover{
+    background-color: #405d35;
+}
+@media (max-width:767px){
+    .our-works figure{
+        border: 8px solid #83B271;
+        margin-bottom: 35px;
+    }
+    .our-works .last-fig{
+        margin-bottom: 0;
+    }
+}
+/*********************
+   our works end
+*********************/
+
+
+/*********************
+  main-content starts
+*********************/
+.main-content{
+    overflow: hidden;
+    background-color: #d5d9ae;
+    padding: 70px 0;
+}
+.main-content .myform{
+    text-align: center;
+}
+.main-content .myform form{
+    width: 90%;
+    margin: auto;
+    font-size: 1em;
+}
+.myform .form-input{
+    margin-top: 20px;
+}
+.form-input input{
+    display: inline-block;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    outline: 0;
+    border: 0;
+    width: 200px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+form textarea{
+    display: block;
+    width: 85%;
+    margin: auto;
+    outline: 0;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    resize: none;
+}
+
+
+
+
+/*********************
+  main-content ends
+*********************/
+
+
+
+
+
+/***********************
+extra small screen  starts
+************************/
+@media (max-width:767px){
+    .visible-xs{
+        display: block!important;
+    }
+    .hidden-xs{
+        display: none!important;
+    }
+}
+/***********************
+extra small screen  ends
+************************/
+
+
+
+
+
+
+/***********************
+   small screen  starts
+************************/
+@media (min-width:768px){
+    .container{
+        width:740px;
+    }
+    .visible-sm{
+        display: block!important;
+    }
+     .hidden-sm{
+        display: none!important;
+    }
+}
+/***********************
+    small screen  ends
+************************/
+
+
+
+
+
+/***********************
+   medium screen  starts
+************************/
+@media (min-width:992px){
+    .container{
+        width:960px;
+    }
+    .visible-md{
+        display: block!important;
+    }
+     .hidden-md{
+        display: none!important;
+    }
+}
+/***********************
+    medium screen  ends
+************************/
+
+
+
+
+
+
+
+/***********************
+   large screen  starts
+************************/
+@media (min-width:1200px){
+    .container{
+        width:1170px;
+    }
+    .visible-lg{
+        display: block!important;
+    }
+     .hidden-lg{
+        display: none!important;
+    }
+}
+/***********************
+    large screen  ends
+************************/
 
 
